@@ -1,0 +1,17 @@
+# [conexao database_bi - insert]
+SERVER_BI_SQL="ipservidor"
+PORT_BI_SQL="1433"
+DATABASE_BI_SQL="database_bi"
+USERNAME_BI_SQL="username.bi"
+PASSWORD_BI_SQL="password.bi"
+
+# [variaveis do endpoint]
+url_endpoint="url_endpoint"
+bearer_token="tokenEndpoint"
+
+# [conexao azure sql - select]
+SERVER_AZURESQL="azuredbsql.database.windows.net"
+PORT_AZURESQL="1433"
+DATABASE_AZURESQL="database_azuredb"
+USERNAME_AZURESQL="username.azuresql"
+PASSWORD_AZURESQL="password.azuresql"
