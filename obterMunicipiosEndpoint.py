@@ -134,7 +134,7 @@ def gravaCsvfromJson(listEndPoint):
 
 
 ## gera comandos de inserts conforme valores da lista passada
-def gravaDadosEnpointAux(listEndPoint):
+def gravaDadosEndpointAux(listEndPoint):
 
     datahora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     msgLog = 'Gravando dados do endpoint em tabela sql: {0}'.format(datahora)
@@ -370,7 +370,7 @@ def main():
         exit()
     else: 
         #gravaCsvfromJson(listEndPoint)
-        gravaDadosEnpointAux(listEndPoint)
+        gravaDadosEndpointAux(listEndPoint)
         atualizaInsereMunicipiosIBGE()
 
     ## remocao dos logs antigos acima de xx dias
