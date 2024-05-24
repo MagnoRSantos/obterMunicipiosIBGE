@@ -364,7 +364,7 @@ def main():
 
     if not listEndPoint:
         datahora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        msgLog = 'Não existem para processar'
+        msgLog = 'Não existem dados para processar'
         msgLog = '{0}\n***** Final da aplicação: {1}\n'.format(msgLog, datahora)
         print(GravaLog(msgLog, 'a'))
         exit()
